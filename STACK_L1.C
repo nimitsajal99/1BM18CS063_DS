@@ -4,7 +4,7 @@
 
 int Max=10, Top=-1, arr[10], a;
 
-int IsFull()
+int IsFull()				//IS FULL FUNCTION
 {
 	if(Top==Max)
 		return 1;
@@ -12,7 +12,7 @@ int IsFull()
 		return 0;
 }
 
-int IsEmpty()
+int IsEmpty()				//IS EMPTY FUNCTION
 {
 	if(Top==-1)
 		return 1;
