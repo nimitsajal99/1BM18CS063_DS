@@ -58,8 +58,7 @@ void Display()			//DISPLAY FUNCTION
 }
 int main()
 {
-	int j, s, n;
-	char d;
+	int s, n;
 	clrscr();
 
 	for(;;)
